@@ -1,0 +1,10 @@
+{
+  "modules": [
+    {
+      "name": "project-d9",
+      "version": "1.0.0",
+      "path": "/src/apps/project-d9",
+      "main": "project-d9.js"
+    }
+  ]
+}

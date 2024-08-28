@@ -1,0 +1,18 @@
+{
+  "apps": [
+    {
+      "name": "project-d9",
+      "module": "project-d9",
+      "displayName": "Project D9",
+      "type": "euisdk",
+      "route": "project-d9"
+    }
+  ],
+  "components": [
+    {
+      "name": "date-picker",
+      "module": "date-picker",
+      "version": "1.0.0"
+    }
+  ]
+}

@@ -1,0 +1,422 @@
+:host{
+  display: block;
+} 
+
+h1 {
+  padding: 1em;
+}
+
+:host {
+  display: block;
+}
+:host([hide-legend]) .euisdk-chart-legend {
+  display: none;
+}
+.eds-chart {
+  display: flex;
+  flex: auto;
+  justify-content: center;
+}
+.eds-chart[hidden] {
+  display: none;
+}
+.eds-chart svg {
+  width: 200px;
+  height: 230px;
+}
+.canvas.donut {
+  transform: translate(100px, 100px);
+}
+.donut {
+  text-align: center;
+}
+.donut-layout {
+  display: flex;
+  align-items: flex-start;
+}
+.donut .active-arc path {
+  stroke: var(--layer2, #242424);
+  stroke-width: 2px;
+}
+.donut .transparent {
+  fill: rgba(0, 0, 0, 0);
+}
+.donut .value {
+  font-size: 60px;
+  fill: var(--text, #f2f2f2);
+  text-anchor: middle;
+}
+.donut .unit {
+  font-size: 16px;
+  fill: var(--text, #f2f2f2);
+  text-anchor: middle;
+}
+.donut .label {
+  font-size: 16px;
+  fill: var(--text, #f2f2f2);
+  text-anchor: middle;
+  transition: opacity .3s ease-in-out;
+}
+.donut path {
+  transition: fill .15s ease-in-out;
+}
+.chart-legend {
+  display: none;
+}
+.euisdk-chart-legend {
+  display: flex;
+  gap: var(--space-base, 8px);
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.euisdk-chart-legend :last-child {
+  margin-right: 0;
+}
+.donut .active-arc path {
+  stroke: #fafafa;
+  stroke-width: 2px;
+}
+.donut path.color-data-1 {
+  fill: #878787;
+}
+.donut path.color-data-2 {
+  fill: #976CF4;
+}
+.donut path.color-data-3 {
+  fill: #23969A;
+}
+.donut path.color-data-4 {
+  fill: #C86F6D;
+}
+.donut path.color-data-5 {
+  fill: #333333;
+}
+.donut path.color-data-6 {
+  fill: #B98327;
+}
+.donut path.color-data-7 {
+  fill: #8087AD;
+}
+.donut path.color-data-8 {
+  fill: #E75FA0;
+}
+.donut path.color-data-9 {
+  fill: #3E0DA9;
+}
+.donut path.color-data-10 {
+  fill: #9B3213;
+}
+.donut path.color-data-11 {
+  fill: #5B85D0;
+}
+.donut path.color-data-12 {
+  fill: #4D0C2B;
+}
+.donut path.color-data-13 {
+  fill: #D82177;
+}
+.donut path.color-data-14 {
+  fill: #0C3B35;
+}
+.donut path.color-data-15 {
+  fill: #7695B0;
+}
+.donut path.color-data-16 {
+  fill: #74132A;
+}
+.donut path.color-data-17 {
+  fill: #3E4461;
+}
+.donut path.color-data-18 {
+  fill: #CF4219;
+}
+.donut path.color-data-19 {
+  fill: #5B4013;
+}
+.donut path.color-data-20 {
+  fill: #BD1f44;
+}
+.donut path.transparent {
+  fill: rgba(0, 0, 0, 0);
+}
+.donut .value {
+  font-size: 28px;
+  fill: #242424;
+  text-anchor: middle;
+}
+.donut .unit {
+  font-size: 16px;
+  fill: #242424;
+  text-anchor: middle;
+}
+.donut .label {
+  font-size: 16px;
+  fill: #242424;
+  text-anchor: middle;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+.donut path {
+  -webkit-transition: fill 0.15s ease-in-out;
+  transition: fill 0.15s ease-in-out;
+}
+
+ .line-chart .line,
+ .line-chart .missing {
+  fill: none;
+  stroke: #242424;
+  stroke-width: 2;
+}
+ .line-chart .line.hidden,
+ .line-chart .missing.hidden {
+  display: none;
+}
+ .line-chart .line.color-data-1,
+ .line-chart .missing.color-data-1 {
+  stroke: #878787;
+}
+ .line-chart .line.color-data-2,
+ .line-chart .missing.color-data-2 {
+  stroke: #976CF4;
+}
+ .line-chart .line.color-data-3,
+ .line-chart .missing.color-data-3 {
+  stroke: #23969A;
+}
+ .line-chart .line.color-data-4,
+ .line-chart .missing.color-data-4 {
+  stroke: #C86F6D;
+}
+ .line-chart .line.color-data-5,
+ .line-chart .missing.color-data-5 {
+  stroke: #333333;
+}
+ .line-chart .line.color-data-6,
+ .line-chart .missing.color-data-6 {
+  stroke: #B98327;
+}
+ .line-chart .line.color-data-7,
+ .line-chart .missing.color-data-7 {
+  stroke: #8087AD;
+}
+ .line-chart .line.color-data-8,
+ .line-chart .missing.color-data-8 {
+  stroke: #E75FA0;
+}
+ .line-chart .line.color-data-9,
+ .line-chart .missing.color-data-9 {
+  stroke: #3E0DA9;
+}
+ .line-chart .line.color-data-10,
+ .line-chart .missing.color-data-10 {
+  stroke: #9B3213;
+}
+ .line-chart .line.color-data-11,
+ .line-chart .missing.color-data-11 {
+  stroke: #5B85D0;
+}
+ .line-chart .line.color-data-12,
+ .line-chart .missing.color-data-12 {
+  stroke: #4D0C2B;
+}
+ .line-chart .line.color-data-13,
+ .line-chart .missing.color-data-13 {
+  stroke: #D82177;
+}
+ .line-chart .line.color-data-14,
+ .line-chart .missing.color-data-14 {
+  stroke: #0C3B35;
+}
+ .line-chart .line.color-data-15,
+ .line-chart .missing.color-data-15 {
+  stroke: #7695B0;
+}
+ .line-chart .line.color-data-16,
+ .line-chart .missing.color-data-16 {
+  stroke: #74132A;
+}
+ .line-chart .line.color-data-17,
+ .line-chart .missing.color-data-17 {
+  stroke: #3E4461;
+}
+ .line-chart .line.color-data-18,
+ .line-chart .missing.color-data-18 {
+  stroke: #CF4219;
+}
+ .line-chart .line.color-data-19,
+ .line-chart .missing.color-data-19 {
+  stroke: #5B4013;
+}
+ .line-chart .line.color-data-20,
+ .line-chart .missing.color-data-20 {
+  stroke: #BD1f44;
+}
+ .line-chart .point-group.color-data-1 circle {
+  stroke: #878787;
+}
+ .line-chart .point-group.color-data-2 circle {
+  stroke: #976CF4;
+}
+ .line-chart .point-group.color-data-3 circle {
+  stroke: #23969A;
+}
+ .line-chart .point-group.color-data-4 circle {
+  stroke: #C86F6D;
+}
+ .line-chart .point-group.color-data-5 circle {
+  stroke: #333333;
+}
+ .line-chart .point-group.color-data-6 circle {
+  stroke: #B98327;
+}
+ .line-chart .point-group.color-data-7 circle {
+  stroke: #8087AD;
+}
+ .line-chart .point-group.color-data-8 circle {
+  stroke: #E75FA0;
+}
+ .line-chart .point-group.color-data-9 circle {
+  stroke: #3E0DA9;
+}
+ .line-chart .point-group.color-data-10 circle {
+  stroke: #9B3213;
+}
+ .line-chart .point-group.color-data-11 circle {
+  stroke: #5B85D0;
+}
+ .line-chart .point-group.color-data-12 circle {
+  stroke: #4D0C2B;
+}
+ .line-chart .point-group.color-data-13 circle {
+  stroke: #D82177;
+}
+ .line-chart .point-group.color-data-14 circle {
+  stroke: #0C3B35;
+}
+ .line-chart .point-group.color-data-15 circle {
+  stroke: #7695B0;
+}
+ .line-chart .point-group.color-data-16 circle {
+  stroke: #74132A;
+}
+ .line-chart .point-group.color-data-17 circle {
+  stroke: #3E4461;
+}
+ .line-chart .point-group.color-data-18 circle {
+  stroke: #CF4219;
+}
+ .line-chart .point-group.color-data-19 circle {
+  stroke: #5B4013;
+}
+ .line-chart .point-group.color-data-20 circle {
+  stroke: #BD1f44;
+}
+ .line-chart .point-group circle {
+  stroke-width: 1px;
+  fill: #fafafa;
+}
+ .line-chart .missing {
+  stroke-width: 1px;
+}
+ .line-chart .linear-gradient stop[stop-color="green"] {
+  stop-color: #329864;
+}
+ .line-chart .linear-gradient stop[stop-color="yellow"] {
+  stop-color: #a08209;
+}
+ .line-chart .linear-gradient stop[stop-color="orange"] {
+  stop-color: #d46617;
+}
+ .line-chart .linear-gradient stop[stop-color="red"] {
+  stop-color: #ed0e00;
+}
+ .line-chart .linear-gradient stop[stop-color="line"] {
+  stop-color: #242424;
+}
+ .line-chart .axis.y.zero .tick line {
+  stroke: #242424;
+  stroke-width: 1;
+}
+ .line-chart .tooltip {
+  fill: #242424;
+}
+ .line-chart .tooltip .unit {
+  opacity: 0.6;
+}
+ .line-chart .tooltip .value {
+  margin-left: 8px;
+}
+ .line-chart .tooltip-line {
+  stroke: #242424;
+  stroke-width: 1px;
+}
+ .line-chart .tooltip-circle {
+  stroke-width: 3px;
+  fill: #fafafa;
+}
+ .line-chart .tooltip-x-axis {
+  fill: #242424;
+}
+ .line-chart .tooltip-x-axis .unit {
+  opacity: 0.7;
+}
+ .line-chart circle.color-data-1 {
+  stroke: #878787;
+}
+ .line-chart circle.color-data-2 {
+  stroke: #976CF4;
+}
+ .line-chart circle.color-data-3 {
+  stroke: #23969A;
+}
+ .line-chart circle.color-data-4 {
+  stroke: #C86F6D;
+}
+ .line-chart circle.color-data-5 {
+  stroke: #333333;
+}
+ .line-chart circle.color-data-6 {
+  stroke: #B98327;
+}
+ .line-chart circle.color-data-7 {
+  stroke: #8087AD;
+}
+ .line-chart circle.color-data-8 {
+  stroke: #E75FA0;
+}
+ .line-chart circle.color-data-9 {
+  stroke: #3E0DA9;
+}
+ .line-chart circle.color-data-10 {
+  stroke: #9B3213;
+}
+ .line-chart circle.color-data-11 {
+  stroke: #5B85D0;
+}
+ .line-chart circle.color-data-12 {
+  stroke: #4D0C2B;
+}
+ .line-chart circle.color-data-13 {
+  stroke: #D82177;
+}
+ .line-chart circle.color-data-14 {
+  stroke: #0C3B35;
+}
+ .line-chart circle.color-data-15 {
+  stroke: #7695B0;
+}
+ .line-chart circle.color-data-16 {
+  stroke: #74132A;
+}
+ .line-chart circle.color-data-17 {
+  stroke: #3E4461;
+}
+ .line-chart circle.color-data-18 {
+  stroke: #CF4219;
+}
+ .line-chart circle.color-data-19 {
+  stroke: #5B4013;
+}
+ .line-chart circle.color-data-20 {
+  stroke: #BD1f44;
+}
